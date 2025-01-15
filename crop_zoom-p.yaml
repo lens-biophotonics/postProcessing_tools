@@ -1,0 +1,17 @@
+# Directory containing and to save the OME-TIF files
+directory_path: "path/to/OME-TIF/files/dir"
+output_dirPath: "path/to/the/output/dir"
+
+# A list containing a lists of X coordinates under the index
+# [0] and [1] for cropping  and,
+# the starting and ending tiles to perform that cropping on as under the index
+# [2] and [3]
+crop_dict: [
+  [6872, 11868, 3, 14],
+  [6165, 11086, 18, 23],
+  [2865, 10200, 25, 29],
+  [1772, 5533, 32, 40]
+]
+
+# number of cpus to work in parallel
+max_workers: 5

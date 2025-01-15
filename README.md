@@ -1,8 +1,6 @@
-#### This repository contains scripts that are useful for post processing the acquired images.
+## Scripts/Tools
 
-## Scripts
-
-### Crop_Zoom.py
+### crop_zoom.py
 The **crop_zoom.py** is used for cropping the OME-TIF file to the desired x dimensions and then 
 zoom it back to the original X shape. A **crop_zoom.ipynb** jupyter notebook is provided for testing. The **crop_zoom.py** takes **crop_zoom-p.yaml** config yaml file as a argument. One can run the script by the following commonds:
 ```

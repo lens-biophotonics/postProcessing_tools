@@ -6,5 +6,3 @@ zoom it back to the original X shape. A **crop_zoom.ipynb** jupyter notebook is 
 ```
 python3 crop_zoom.py -p crop_zoom-p.yaml
 ```
-
-> **Note**: To run the python scripts one has to create a python venv or conda with the right python libraries installed. 
